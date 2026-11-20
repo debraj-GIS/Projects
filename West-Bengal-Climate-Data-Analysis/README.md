@@ -31,7 +31,7 @@ This repository contains two Jupyter notebooks:
 West-Bengal-Climate-Data-Analysis/
 │
 ├── Climate_Data_Collection_(2000_2025).ipynb
-├── Data_Analysis(1).ipynb
+├── Data_Analysis.ipynb
 ├── WB_Annual_Climate_2000_2025.csv
 ├── README.md
 └── Documentation/
