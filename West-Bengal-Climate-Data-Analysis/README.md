@@ -7,7 +7,7 @@ A geospatial climate-data project for West Bengal, India, using Google Earth Eng
 This repository contains two Jupyter notebooks:
 
 1. **`Climate_Data_Collection_(2000_2025).ipynb`** — prepares the West Bengal area of interest (AOI), generates sample points, processes ERA5-Land daily data into annual climate indicators, samples the annual images, and exports the results to Google Drive.
-2. **`Data_Analysis(1).ipynb`** — loads the exported CSV and performs exploratory statistical analysis and visualisation using NumPy, pandas, Matplotlib, and SciPy.
+2. **`Data_Analysis.ipynb`** — loads the exported CSV and performs exploratory statistical analysis and visualisation using NumPy, pandas, Matplotlib, and SciPy.
 
 **Study period:** 2000–2025  
 **Study area:** West Bengal, India  
@@ -133,7 +133,7 @@ The analysis notebook uses the exported CSV to perform:
 
 ### B. Analyse the exported data
 
-1. Open `Data_Analysis(1).ipynb`.
+1. Open `Data_Analysis.ipynb`.
 2. Place the exported CSV in your Google Drive or working directory.
 3. Update `file_path` in the notebook to the CSV's actual location.
 4. Run the notebook cells in order to reproduce the tables, statistics, and plots.
@@ -164,5 +164,3 @@ This repository's code may be released under the **MIT License** if you are the 
 GIS | Remote Sensing | Geospatial Data Analysis | Python
 
 ---
-
-*This project is intended for educational, exploratory, and portfolio purposes. It demonstrates a workflow for climate-data extraction, processing, statistical analysis, and visualisation using Google Earth Engine and Python.*
